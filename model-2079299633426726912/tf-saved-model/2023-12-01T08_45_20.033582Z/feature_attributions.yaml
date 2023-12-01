@@ -1,0 +1,10 @@
+type: object
+properties:
+  AT:
+    type: number
+  V:
+    type: number
+  AP:
+    type: number
+  RH:
+    type: number

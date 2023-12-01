@@ -1,0 +1,25 @@
+type: object
+required:
+- AT
+- V
+- AP
+- RH
+properties:
+  AT:
+    type: string
+    nullable: true
+  V:
+    type: string
+    nullable: true
+  AP:
+    type: string
+    nullable: true
+  RH:
+    type: string
+    nullable: true
+nullable: true
+example:
+  AT: '20.35'
+  V: '52.08'
+  AP: '1012.95'
+  RH: '74.99'
